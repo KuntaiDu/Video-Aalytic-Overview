@@ -13,18 +13,25 @@ Knowing that
 
 ### Image-based
 
-
 #### Glimpse
 
 #### Edge Assisted Real-time Object Detection for Mobile Augmented Reality
 Here is the [paper link](http://www.winlab.rutgers.edu/~luyang/papers/mobicom19_augmented_reality.pdf). 
-This paper explores AR scenario. 
-The key thing is to minimize the latency.
-This paper use parallel streaming and inference to reduce latency, motion-vector-based tracking & ROI encoding to reduce bandwidth (thus reduce streaming latency), and adaptive offloading to reduce compute cost.
+This paper explores AR scenario, so the key thing here to minimize the latency.
+This paper uses parallel streaming and inference to reduce latency, motion-vector-based tracking & ROI encoding to reduce bandwidth (thus reduce streaming latency), and adaptive offloading to reduce compute cost.
 
 ### Video-clip-based
 
-### AWStream
+#### AWStream
+Here is the [paper link](https://awstream.github.io/paper/awstream.pdf). 
+This paper tunes the parameters of encoding algorithm.
+It profiles the pareto boundary of bandwidth-accuracy trade-off, and then apply this profile on afterwards frames.
+**Important**: surprisingly, this baseline is actually pretty effective because the video encoding algorithms is pretty matured in terms of preserving every details while saving bandwidth.
+
+#### CloudSeg
+Here is the [paper link](https://www.usenix.org/system/files/hotcloud19-paper-wang.pdf).
+This paper uses super resolution to save bandwidth.
+It trains a super resolution model based on some ground truth by minimizing analytic error, and then uses this model to super-resolute the input video clip for analytic purpose.
 
 ## Scale up inference
 
@@ -62,18 +69,20 @@ This paper tries to detect all frames that contains certain objects. They use ch
 #### MCDNN
 Here is the [paper link](https://homes.cs.washington.edu/~arvind/papers/mcdnn.pdf).
 
+### Through edge
+
+#### 
+
 ## Scale up training
 
-### Mainstream
+#### Mainstream
 Here is the [paper link](https://www.usenix.org/system/files/conference/atc18/atc18-jiang.pdf).
 This paper argues that people train multiple models based on same backbone on same videos.
 Thus, the backbone could be shared between different models.
 
-## Benchmark video analytic pipelines
+## Dataset and benchmarking
 
-## Benchmark video analytic databases
-
-### Visual Road
+#### Visual Road
 Here is the [paper link](https://db.cs.washington.edu/projects/visualroad/p300-haynes.pdf).
 This paper argues that to benchmark video analytic databases, the generation of benchmark videos and the the annotate of those videos should be automatic.
 So they use synthetic way to generate videos.
