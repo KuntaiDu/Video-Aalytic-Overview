@@ -4,7 +4,7 @@ Here, we target on those video analytics systems that target deep neural network
 
 ## Video analytic pipelines
 
-#### Glimpse
+#### [Glimpse](http://people.csail.mit.edu/yuhan/doc/sen060-chenA.pdf)
 
 #### [Chameleon](https://people.cs.uchicago.edu/~junchenj/docs/Chameleon_SIGCOMM_CameraReady_faceblurred.pdf)
 Tune configurations to adapt to video dynamics.
@@ -37,7 +37,7 @@ This paper argues that multiple applications will reuse the same video and invok
 #### [Scanner](http://graphics.stanford.edu/papers/scanner/poms18_scanner.pdf)
 It expresses the analytic pipeline as a static computation graph, bound the temporal dependency through pre-defined API, and scale the pipeline to a cluster.
 
-#### [DeepLens\(http://cidrdb.org/cidr2019/papers/p40-krishnan-cidr19.pdf)
+#### [DeepLens](http://cidrdb.org/cidr2019/papers/p40-krishnan-cidr19.pdf)
 This paper says that each step of video analytic pipeline will map from a stream to another stream.
 Based on this abstraction, they explore how to encode, index the vido; and how to reuse previous results.
 
