@@ -1,6 +1,6 @@
 # Video analytic overview
 
-Here, we target on those video analytics systems that target deep neural networks.
+Here, we focus on those researches that provide system-level support for deep-neural-network-based video analytics. If you have any suggestions or I miss some papers, please inform me through creating a new issue. Hope these papers will help you.
 
 ## Video analytic pipelines
 
