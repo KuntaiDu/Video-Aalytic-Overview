@@ -4,6 +4,8 @@ Here, we focus on those researches that provide system-level support for deep-ne
 
 ## Video Streaming Approaches
 
+#### [Vigil](https://old.sigmobile.org/mobicom/2015/papers/p426-zhangA.pdf)
+
 #### [Glimpse](http://people.csail.mit.edu/yuhan/doc/sen060-chenA.pdf)
 
 #### [Chameleon](https://people.cs.uchicago.edu/~junchenj/docs/Chameleon_SIGCOMM_CameraReady_faceblurred.pdf)
@@ -13,7 +15,7 @@ Tune configurations to adapt to video dynamics.
 This paper explores AR scenario, so the key thing here to minimize the latency.
 This paper uses parallel streaming and inference to reduce latency, motion-vector-based tracking & ROI encoding to reduce bandwidth (thus reduce streaming latency), and adaptive offloading to reduce compute cost.
 
-#### [AWStream]((https://awstream.github.io/paper/awstream.pdf))
+#### [AWStream](https://awstream.github.io/paper/awstream.pdf)
 Tune configurations of encoder to adapt to video dynamics.
 
 #### [CloudSeg](https://www.usenix.org/system/files/hotcloud19-paper-wang.pdf)
