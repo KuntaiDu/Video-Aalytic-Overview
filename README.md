@@ -11,7 +11,7 @@ Here, we focus on those researches that provide system-level support for deep-ne
 #### [Chameleon](https://people.cs.uchicago.edu/~junchenj/docs/Chameleon_SIGCOMM_CameraReady_faceblurred.pdf)
 Tune configurations to adapt to video dynamics.
 
-#### [Edge Assisted Real-time Object Detection for Mobile Augmented Reality](http://www.winlab.rutgers.edu/~luyang/papers/mobicom19_augmented_reality.pdf)
+#### [Edge Assisted Real-time Object Detection for Mobile Augmented Reality (we call it EAAR for short)](http://www.winlab.rutgers.edu/~luyang/papers/mobicom19_augmented_reality.pdf)
 This paper explores AR scenario, so the key thing here to minimize the latency.
 This paper uses parallel streaming and inference to reduce latency, motion-vector-based tracking & ROI encoding to reduce bandwidth (thus reduce streaming latency), and adaptive offloading to reduce compute cost.
 
